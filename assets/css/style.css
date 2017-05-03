@@ -1,0 +1,206 @@
+.headingfonts {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.otherfonts {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	padding: 0px;
+	border-bottom: solid 3px #cccccc;
+}
+
+#heading {
+	margin-left: 150px;
+	width: 960px;
+	overflow: auto;
+}
+
+
+
+h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	background: #4aaaa5;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+}
+
+
+nav {
+	width: 270px;
+	height: 48px;
+	padding-top: 15px;
+	text-align: center;
+	margin-top: 13px;
+	float: right;
+}
+
+a {
+	height: 100%;
+	width: 33.3%;
+	text-decoration: none;
+	color: #777777;
+}
+
+.hover a {
+	float: right;
+	height: 100%;
+	transition: margin 0.25s;
+}
+
+.hover a:hover {
+	margin-top: -3px;
+}
+
+body {
+	background-image: url('../images/backcover1.png');
+	margin: 0px;
+	color: #777777;
+}
+
+/*
+.vert {
+	border-right: solid 1px #cccccc;
+	padding-right: 10px;
+}
+*/
+
+#selfie {
+	float: left;
+	width: 39%;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#about {
+	border: solid 2px #ddd;
+	padding: 20px;
+	margin-left: 10px;
+	background: #ffffff;
+	float: left;
+	width: 606px;
+}
+
+#social {
+	border: solid 2px #ddd;
+	padding: 15px;
+	width: 226px;
+	text-align: center;
+	background: #ffffff;
+	float: right;
+}
+
+#footertop {
+	top: 0;
+	background: #4aaaa5;
+	height: 5px;
+}
+
+footer {
+	display: block;
+	padding: 0px;
+	color: #ccc;
+	width: 100%;
+	background: #666666;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	height: 60px;
+}
+
+.icons {
+	width: 70px;
+	height: 70px;
+}
+
+main {
+	z-index: 0;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 150px;
+	margin-bottom: 100px;
+	width: 960px;
+}
+
+p {
+	margin-bottom: 3px;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+}
+
+
+#message {
+	height: 120px;
+	width: 100%;
+	float: left;
+	resize: vertical;
+	overflow: auto;
+}
+
+button {
+	clear: both;
+	color: #fff;
+	margin-top: 20px;
+	width: 120px;
+	height: 35px;
+	border: 0;
+	background: #4aaaa5;
+}
+
+.portimg {
+	display: inline-block;
+	float: left;
+	z-index: 1;
+}
+
+.imgcont {
+	float: left;
+	height: 200px;
+	width: 280px;
+	margin: 15px 10px 20px 10px;
+	z-index: 0;
+}
+
+.portbar {
+	display: inline-block;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	margin-top: -60px;
+	width: 280px;
+	height: 50px;
+	color: #fff;
+	background: #4aaaa5;
+}
+
+h5 {
+	position: relative;
+	padding: 0px;
+	bottom: 5px;
+}
+
+.icons:hover {
+	opacity: 0.75;
+}
+
+button:hover {
+	border-radius: 4px;
+	opacity: .8;
+}
